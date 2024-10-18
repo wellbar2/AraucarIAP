@@ -16,10 +16,10 @@ def executar():
     sistemaOperativo = platform.system()
 
     if sistemaOperativo == "Windows":
-        python_venv = os.path.join('.\\venv\\AraucarIAP\\', 'Scripts', 'python.exe')
+        python_venv = os.path.join('.//venv//AraucarIAP//', 'Scripts', 'python.exe')
 
     elif sistemaOperativo == "Linux":
-        python_venv = os.path.join('.\\venv\\AraucarIAP\\', 'bin', 'python')
+        python_venv = os.path.join('.//venv//AraucarIAP//', 'bin', 'python')
 
     else:
         python_venv = None
