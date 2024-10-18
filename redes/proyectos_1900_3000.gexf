@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-10-18">
+    <creator>NetworkX 3.4.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="ids" type="string" />
+      <attribute id="1" title="tipo" type="string" />
+      <attribute id="2" title="resumen" type="string" />
+      <attribute id="3" title="idsAutores" type="string" />
+    </attributes>
+    <nodes>
+      <node id="EXPLORANDO A ATRIBUIÇÃO DE PARECERISTAS EM REVISÃO POR PARES - Proposta de um novo índice" label="EXPLORANDO A ATRIBUIÇÃO DE PARECERISTAS EM REVISÃO POR PARES - Proposta de um novo índice">
+        <attvalues>
+          <attvalue for="0" value="A5064678890,A5078934974" />
+          <attvalue for="1" value="Proyecto" />
+          <attvalue for="2" value="EXPLORANDO A ATRIBUIÇÃO DE PARECERISTAS EM REVISÃO POR PARES - Proposta de um novo índice&#10;" />
+          <attvalue for="3" value="A5064678890,A5078934974" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges />
+  </graph>
+</gexf>
