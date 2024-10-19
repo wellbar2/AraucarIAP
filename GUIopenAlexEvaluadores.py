@@ -37,6 +37,17 @@ def armarCurriculo ():
     direccion = diretorioAtualAbsoluto + "//evaluadores//"
     archivoNombre = nombre.get()
     archivoApellido = apellido.get()
+
+    if not archivoNombre.strip():
+        archivoNombre = '1'
+    if not archivoApellido.strip():
+        archivoApellido = '1'
+
+    archivoNombre = re.sub(r'[^a-zA-Z0-9 ]+', '', archivoNombre)
+    archivoApellido = re.sub(r'[^a-zA-Z0-9 ]+', '', archivoApellido)
+
+
+
     archivo  = open(direccion + archivoNombre + "-" + archivoApellido + ".txt","w", encoding="utf8")
 
     idsAutor = []

@@ -32,7 +32,21 @@ def armarProyecto():
     direccion = diretorioAtualAbsoluto + "//proyectos//"
     archivoNombre = nombre.get()
     archivoApellido = apellido.get()
+
+    if not archivoNombre.strip():
+        archivoNombre = '1'
+    if not archivoApellido.strip():
+        archivoApellido = '1'
+
+    archivoNombre = re.sub(r'[^a-zA-Z0-9 ]+', '', archivoNombre)
+    archivoApellido = re.sub(r'[^a-zA-Z0-9 ]+', '', archivoApellido)
+
+
+
     tituloProyecto = proyecto.get().replace("\n", " ")
+    tituloProyecto = re.sub(r'[^a-zA-Z0-9 ]+', '-', archivoNombre)
+
+
     resumenProyecto = resumen.get(1.0,tkinter.END).replace("\n", "")
     archivo = open(direccion + tituloProyecto + ".txt","w", encoding="utf8")
 
