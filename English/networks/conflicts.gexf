@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2024-10-22">
+    <creator>NetworkX 2.6.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="1" title="coiWeight" type="double" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Jesús Pascual Mena‐Chalco" label="Jesús Pascual Mena‐Chalco">
+        <attvalues>
+          <attvalue for="0" value="Author" />
+        </attvalues>
+      </node>
+      <node id="DIOGO-RAMOS" label="DIOGO-RAMOS">
+        <attvalues>
+          <attvalue for="0" value="DirectRelationship" />
+        </attvalues>
+      </node>
+      <node id="EXPLORANDO A ATRIBUI-O DE PARECERISTAS EM REVIS-O POR PARES - Proposta de um novo -ndice " label="EXPLORANDO A ATRIBUI-O DE PARECERISTAS EM REVIS-O POR PARES - Proposta de um novo -ndice ">
+        <attvalues>
+          <attvalue for="0" value="Project" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Jesús Pascual Mena‐Chalco" target="EXPLORANDO A ATRIBUI-O DE PARECERISTAS EM REVIS-O POR PARES - Proposta de um novo -ndice ">
+        <attvalues>
+          <attvalue for="1" value="0.666667" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="Jesús Pascual Mena‐Chalco" target="DIOGO-RAMOS">
+        <attvalues>
+          <attvalue for="1" value="0.666667" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

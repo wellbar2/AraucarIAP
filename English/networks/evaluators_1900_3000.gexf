@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2024-10-22">
+    <creator>NetworkX 2.6.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="ids" type="string" />
+      <attribute id="1" title="type" type="string" />
+      <attribute id="2" title="works" type="string" />
+      <attribute id="3" title="firstPaperYear" type="long" />
+      <attribute id="4" title="lastPaperYear" type="long" />
+      <attribute id="5" title="numWorks" type="long" />
+    </attributes>
+    <nodes>
+      <node id="DIOGO-RAMOS" label="DIOGO-RAMOS">
+        <attvalues>
+          <attvalue for="0" value="A5002688884" />
+          <attvalue for="1" value="Evaluator" />
+          <attvalue for="2" value="&#10;Measuring Network Polarization and Political Sectarianism During the 2020 Pandemic&#10;The Friendship Paradox in the formation of academic committees&#10;Caracterização das redes de convites de bancas de defesa de teses e dissertações do Brasil" />
+          <attvalue for="3" value="2016" />
+          <attvalue for="4" value="2023" />
+          <attvalue for="5" value="4" />
+        </attvalues>
+      </node>
+      <node id="Cláudio Luís de Camargo Penteado" label="Cláudio Luís de Camargo Penteado">
+        <attvalues>
+          <attvalue for="1" value="Collaborator" />
+          <attvalue for="0" value="A5076128775" />
+          <attvalue for="3" value="2022" />
+          <attvalue for="4" value="2022" />
+        </attvalues>
+      </node>
+      <node id="Denise Goya" label="Denise Goya">
+        <attvalues>
+          <attvalue for="1" value="Collaborator" />
+          <attvalue for="0" value="A5037531773" />
+          <attvalue for="3" value="2022" />
+          <attvalue for="4" value="2022" />
+        </attvalues>
+      </node>
+      <node id="Rafaela Vilela da Rocha" label="Rafaela Vilela da Rocha">
+        <attvalues>
+          <attvalue for="1" value="Collaborator" />
+          <attvalue for="0" value="A5021210563" />
+          <attvalue for="3" value="2022" />
+          <attvalue for="4" value="2022" />
+        </attvalues>
+      </node>
+      <node id="Lucas Mazim de Souza" label="Lucas Mazim de Souza">
+        <attvalues>
+          <attvalue for="1" value="Collaborator" />
+          <attvalue for="0" value="A5011053934" />
+          <attvalue for="3" value="2022" />
+          <attvalue for="4" value="2022" />
+        </attvalues>
+      </node>
+      <node id="Daniel Vitor Beraldo di Gênova" label="Daniel Vitor Beraldo di Gênova">
+        <attvalues>
+          <attvalue for="1" value="Collaborator" />
+          <attvalue for="0" value="A5061193863" />
+          <attvalue for="3" value="2022" />
+          <attvalue for="4" value="2022" />
+        </attvalues>
+      </node>
+      <node id="Fabrício Olivetti de França" label="Fabrício Olivetti de França">
+        <attvalues>
+          <attvalue for="1" value="Collaborator" />
+          <attvalue for="0" value="A5010769668" />
+          <attvalue for="3" value="2022" />
+          <attvalue for="4" value="2022" />
+        </attvalues>
+      </node>
+      <node id="Flávio Horita" label="Flávio Horita">
+        <attvalues>
+          <attvalue for="1" value="Collaborator" />
+          <attvalue for="0" value="A5088686978" />
+          <attvalue for="3" value="2022" />
+          <attvalue for="4" value="2022" />
+        </attvalues>
+      </node>
+      <node id="Carlos da Silva dos Santos" label="Carlos da Silva dos Santos">
+        <attvalues>
+          <attvalue for="1" value="Collaborator" />
+          <attvalue for="0" value="A5027537367" />
+          <attvalue for="3" value="2022" />
+          <attvalue for="4" value="2022" />
+        </attvalues>
+      </node>
+      <node id="Jesús Pascual Mena‐Chalco" label="Jesús Pascual Mena‐Chalco">
+        <attvalues>
+          <attvalue for="1" value="Collaborator" />
+          <attvalue for="0" value="A5078934974" />
+          <attvalue for="3" value="2016" />
+          <attvalue for="4" value="2023" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="DIOGO-RAMOS" target="Cláudio Luís de Camargo Penteado" weight="0.25" />
+      <edge id="1" source="DIOGO-RAMOS" target="Denise Goya" weight="0.25" />
+      <edge id="2" source="DIOGO-RAMOS" target="Rafaela Vilela da Rocha" weight="0.25" />
+      <edge id="3" source="DIOGO-RAMOS" target="Lucas Mazim de Souza" weight="0.25" />
+      <edge id="4" source="DIOGO-RAMOS" target="Daniel Vitor Beraldo di Gênova" weight="0.25" />
+      <edge id="5" source="DIOGO-RAMOS" target="Fabrício Olivetti de França" weight="0.25" />
+      <edge id="6" source="DIOGO-RAMOS" target="Flávio Horita" weight="0.25" />
+      <edge id="7" source="DIOGO-RAMOS" target="Carlos da Silva dos Santos" weight="0.3333333333333333" />
+      <edge id="8" source="DIOGO-RAMOS" target="Jesús Pascual Mena‐Chalco" weight="0.6666666666666666" />
+    </edges>
+  </graph>
+</gexf>

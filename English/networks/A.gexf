@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2024-10-22">
+    <creator>NetworkX 2.6.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="2" title="IAP" type="double" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="works" type="string" />
+      <attribute id="1" title="summary" type="string" />
+    </attributes>
+    <nodes>
+      <node id="DIOGO-RAMOS" label="DIOGO-RAMOS">
+        <attvalues>
+          <attvalue for="0" value="&#10;Measuring Network Polarization and Political Sectarianism During the 2020 Pandemic&#10;The Friendship Paradox in the formation of academic committees&#10;Caracterização das redes de convites de bancas de defesa de teses e dissertações do Brasil" />
+        </attvalues>
+      </node>
+      <node id="EXPLORANDO A ATRIBUI-O DE PARECERISTAS EM REVIS-O POR PARES - Proposta de um novo -ndice " label="EXPLORANDO A ATRIBUI-O DE PARECERISTAS EM REVIS-O POR PARES - Proposta de um novo -ndice ">
+        <attvalues>
+          <attvalue for="1" value="EXPLORANDO A ATRIBUI-O DE PARECERISTAS EM REVIS-O POR PARES - Proposta de um novo -ndice &#10;" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="DIOGO-RAMOS" target="EXPLORANDO A ATRIBUI-O DE PARECERISTAS EM REVIS-O POR PARES - Proposta de um novo -ndice ">
+        <attvalues>
+          <attvalue for="2" value="0.2214173333333333" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
